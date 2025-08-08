@@ -4,7 +4,7 @@ A **modern, responsive restaurant website** built with **React, Tailwind CSS, an
 
 ## **Live Demo**
 
-[View Demo](#) *(Add your deployment link here)*
+[View Demo](#https://sayvorly.netlify.app/)
 
 ## **Features**
 
@@ -14,7 +14,6 @@ A **modern, responsive restaurant website** built with **React, Tailwind CSS, an
 * Gallery – Lightbox-enabled image grid
 * Testimonials – Customer reviews with star ratings
 * SEO Optimized – Clean markup & semantic HTML
-* Dark/Light Mode – Optional toggle (see `DarkModeToggle.js`)
 * Scroll-to-Top – Floating button for better UX
 * Animations – Smooth transitions with Framer Motion
 
@@ -25,8 +24,7 @@ A **modern, responsive restaurant website** built with **React, Tailwind CSS, an
 * **Frontend:** React, Tailwind CSS
 * **Animations:** Framer Motion
 * **Icons:** React Icons
-* **Form Handling:** React Hook Form (optional)
-* **Deployment:** Vercel / Netlify
+* **Deployment:** Netlify
 
 ---
 
@@ -35,26 +33,19 @@ A **modern, responsive restaurant website** built with **React, Tailwind CSS, an
 ```bash
 src/
 ├── components/          # Reusable UI components
-│   ├── Navbar.js        # Responsive navigation
-│   ├── Footer.js        # Contact & social links
-│   ├── DishCard.js      # Menu item component
-│   ├── ScrollToTop.js   # Floating back-to-top button
-│   └── ...
+│   ├── Navbar.jsx        # Responsive navigation
+│   ├── Footer.jsx        # Contact & social links
+│   ├── ScrollToTopButton.jsx   # Floating back-to-top button
 │
 ├── pages/               # Page components
-│   ├── Home.js          # Hero, USP, testimonials
-│   ├── Menu.js          # Filterable food/drinks menu
-│   ├── About.js         # Story, team, chef spotlight
-│   ├── Contact.js       # Form, map, hours
+│   ├── Home.jsx          # Hero, USP, testimonials
+│   ├── Menu.jsx          # Filterable food/drinks menu
+│   ├── About.jsx         # Story, team, chef spotlight
+│   ├── Contact.jsx       # Form, map, hours
 │   └── ...
 │
-├── assets/              # Images & media
-│   ├── dishes/          # Food photos
-│   ├── gallery/         # Restaurant ambiance
-│   └── team/            # Staff portraits
-│
-├── App.js               # Main router
-└── index.js             # React entry point
+├── App.jsx               # Main router
+└── main.jsx             # React entry point
 ```
 
 ---
@@ -84,7 +75,7 @@ src/
    yarn start
    ```
 
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
 
 4. **Build for production**
 
@@ -139,14 +130,13 @@ module.exports = {
 
 ## **License**
 
-MIT © \[Your Name]
+MIT © \[Daniel Jesuloba Ajide]
 
 ---
 
 ## **Contact**
 
-* **Email:** [your-email@example.com](mailto:your-email@example.com)
-* **GitHub:** [@your-username](https://github.com/your-username)
+* **Email:** [your-email@example.com](mailto:jesulobadaniel1@gmail.com)
 
 ---
 
