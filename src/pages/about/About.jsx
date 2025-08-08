@@ -18,7 +18,7 @@ function About() {
       image: "https://images.unsplash.com/photo-1723083467031-b5dae65ba6c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTh8fENoZWZ8ZW58MHx8MHx8fDA%3D",
     },
     {
-      name: "Chef Elena Rodriguez",
+      name: "Elena Rodriguez",
       role: "Sommelier",
       bio: "James Beard Award nominee, trained in Barcelona and Tokyo",
       funFact: "Collects vintage cookbooks",
@@ -247,8 +247,8 @@ function About() {
           <div className="flex flex-col lg:flex-row">
             <div className="lg:w-1/3">
               <img
-                src="/team/elena-portrait.jpg"
-                alt="Chef Elena Rodriguez"
+                src="https://images.unsplash.com/photo-1488905971602-47901d26961b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAzfHxDaGVmfGVufDB8fDB8fHww"
+                alt="Nneka Obi"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -258,7 +258,7 @@ function About() {
                 <span className="text-sm font-medium">HEAD CHEF SPOTLIGHT</span>
               </div>
               <h2 className="text-3xl font-serif font-bold mb-6">
-                Elena Rodriguez
+                Nneka Obi
               </h2>
               <blockquote className="text-xl italic mb-8 border-l-4 border-amber-400 pl-6">
                 "Cooking is storytelling on a plate - every ingredient has a
@@ -267,13 +267,13 @@ function About() {
               <div className="prose prose-invert text-gray-300">
                 <p>
                   After training under 3-Michelin-star chefs in Europe, Chef
-                  Elena returned home to create Savorly as a love letter to
-                  seasonal ingredients. Her signature dish, the "Market
+                 Obi returned home to create Savorly as a love letter to
+                  seasonal ingredients. His signature dish, the "Market
                   Tasting", changes daily based on what local producers bring
                   that morning.
                 </p>
                 <p className="mt-4">
-                  When not in the kitchen, she leads our culinary apprenticeship
+                  When not in the kitchen, he leads our culinary apprenticeship
                   program for at-risk youth.
                 </p>
               </div>
