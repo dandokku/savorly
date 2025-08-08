@@ -1,8 +1,11 @@
 import React from 'react'
+import Tabs from './Tabs'
 
 function Menu() {
   return (
-    <div>Menu</div>
+    <div>
+      <Tabs />
+    </div>
   )
 }
 
