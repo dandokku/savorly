@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FiArrowDown } from "react-icons/fi"; // For scroll indicator
+import { FiArrowDown } from "react-icons/fi"; 
 
 function HeroSection() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Video (replace with your actual video or image) */}
       <video
         autoPlay
         loop
@@ -13,13 +12,7 @@ function HeroSection() {
         playsInline
         className="absolute z-0 w-full h-full object-cover"
       >
-        <source src="/hero-video.mp4" type="video/mp4" />
-        {/* Fallback image if video doesn't load */}
-        <img
-          src="/hero-fallback.jpg"
-          alt="Savorly restaurant ambiance"
-          className="w-full h-full object-cover"
-        />
+        <source src={`${import.meta.env.BASE_URL}bgvid.mp4`} type="video/mp4" />
       </video>
 
       {/* Dark overlay for better text contrast */}
