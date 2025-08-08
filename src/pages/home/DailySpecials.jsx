@@ -15,19 +15,19 @@ function DailySpecials() {
       id: 1,
       name: "Truffle Risotto",
       description: "Creamy Arborio rice with wild mushrooms and black truffle",
-      image: "/specials/risotto.jpg",
+      image: "https://images.unsplash.com/photo-1633964913295-ceb43826e7c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8VHJ1ZmZsZSUyMFJpc290dG98ZW58MHx8MHx8fDA%3D",
     },
     {
       id: 2,
       name: "Lobster Thermidor",
       description: "Fresh Maine lobster baked with brandy cream sauce",
-      image: "/specials/lobster.jpg",
+      image: "https://images.unsplash.com/photo-1632389762435-8c53185e40ae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9ic3RlciUyMGRpc2h8ZW58MHx8MHx8fDA%3D",
     },
     {
       id: 3,
       name: "Chocolate Soufflé",
       description: "Warm French-style soufflé with vanilla bean ice cream",
-      image: "/specials/souffle.jpg",
+      image: "https://images.unsplash.com/photo-1713274787293-ffcf74023fc4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGNob2NvbGF0ZSUyMGRpc2h8ZW58MHx8MHx8fDA%3D",
     },
   ];
 
