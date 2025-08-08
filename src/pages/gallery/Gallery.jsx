@@ -7,37 +7,33 @@ import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 
 const galleryImages = [
-  {
-    src: "/gallery/food1.jpg",
-    alt: "Dish 1",
-    category: "food",
-  },
-  {
-    src: "/gallery/interior1.jpg",
-    alt: "Interior 1",
-    category: "interior",
-  },
-  {
-    src: "/gallery/bar1.jpg",
-    alt: "Bar 1",
-    category: "bar",
-  },
-  {
-    src: "/gallery/event1.jpg",
-    alt: "Event 1",
-    category: "events",
-  },
-  {
-    src: "/team/elena.jpg",
-    alt: "Chef Elena",
-    category: "team",
-  },
-  {
-    src: "/team/marcus.jpg",
-    alt: "Marcus Chen",
-    category: "team",
-  },
+  { src: "https://plus.unsplash.com/premium_photo-1673108852141-e8c3c22a4a22?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D", alt: "Dish 1", category: "food" },
+  { src: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2R8ZW58MHx8MHx8fDA%3D", alt: "Dish 2", category: "food" },
+  { src: "https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D", alt: "Dish 3", category: "food" },
+  { src: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZvb2R8ZW58MHx8MHx8fDA%3D", alt: "Dish 4", category: "food" },
+  { src: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D", alt: "Dish 5", category: "food" },
+
+  { src: "https://plus.unsplash.com/premium_photo-1727456097966-6fd708f14ab9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3R1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fHww", alt: "Interior 1", category: "interior" },
+  { src: "https://images.unsplash.com/photo-1652189740120-2f9ad284423d?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlc3R1cmFudCUyMGludGVyaW9yfGVufDB8fDB8fHww", alt: "Interior 2", category: "interior" },
+  { src: "https://images.unsplash.com/photo-1653259035321-0483c4e44c7e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50JTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D", alt: "Interior 3", category: "interior" },
+
+  { src: "https://images.unsplash.com/photo-1723744908732-b1893a47837c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHJlc3R1cmFudCUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D", alt: "Bar 1", category: "bar" },
+  { src: "https://images.unsplash.com/photo-1659626672998-675dfa45c5a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlc3R1cmFudCUyMGJhcnxlbnwwfHwwfHx8MA%3D%3D", alt: "Bar 2", category: "bar" },
+  { src: "https://images.unsplash.com/photo-1651980909099-ddb028d72855?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVzdHVyYW50JTIwYmFyfGVufDB8fDB8fHww", alt: "Bar 3", category: "bar" },
+
+  { src: "https://plus.unsplash.com/premium_photo-1723629880162-1deb1dc9e3f7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fHJlc3R1cmFudCUyMGV2ZW50fGVufDB8fDB8fHww", alt: "Event 1", category: "events" },
+  { src: "https://images.unsplash.com/photo-1705544363579-2116d47ddceb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJlc3R1cmFudCUyMGV2ZW50fGVufDB8fDB8fHww", alt: "Event 2", category: "events" },
+  { src: "https://plus.unsplash.com/premium_photo-1722859426539-5e6ed8e9a2f9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdHVyYW50JTIwZXZlbnR8ZW58MHx8MHx8fDA%3D", alt: "Event 3", category: "events" },
+
+  { src: "https://plus.unsplash.com/premium_photo-1661778091956-15dbe6e47442?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q2hlZnxlbnwwfHwwfHx8MA%3D%3D", alt: "Elena", category: "team" },
+  { src: "https://images.unsplash.com/photo-1541614101331-1a5a3a194e92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hlZnxlbnwwfHwwfHx8MA%3D%3D", alt: "Marcus", category: "team" },
+  { src: "https://images.unsplash.com/photo-1566554273541-37a9ca77b91f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fENoZWZ8ZW58MHx8MHx8fDA%3D", alt: "Amina", category: "team" },
+  { src: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Q2hlZnxlbnwwfHwwfHx8MA%3D%3D", alt: "Luca", category: "team" },
+
+  { src: "https://plus.unsplash.com/premium_photo-1661609668242-39abc38f186c?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdHVyYW50JTIwY3VzdG9tZXJzfGVufDB8fDB8fHww", alt: "Happy customers dining", category: "customers" },
+  { src: "https://images.unsplash.com/photo-1616538994032-f7619b8bebb5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdHVyYW50JTIwY3VzdG9tZXJzfGVufDB8fDB8fHww", alt: "Group enjoying meal", category: "customers" },
 ];
+
 
 function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("all");
