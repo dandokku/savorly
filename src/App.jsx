@@ -7,10 +7,13 @@ import Reservations from "./pages/reservations/Reservations";
 import Contact from "./pages/contact/Contact";
 import Menu from "./pages/menu/Menu";
 import Gallery from "./pages/gallery/Gallery";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+        <ScrollToTop />
+    
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
