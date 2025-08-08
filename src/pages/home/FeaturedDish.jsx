@@ -110,7 +110,7 @@ function FeaturedDishes() {
               </div>
 
               {/* Bottom Info */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 text-white transition-all duration-300 group-hover:translate-y-0 translate-y-8">
+              <div className="absolute bottom-0 left-0 right-0 px-10 py-14 text-white transition-all duration-300 group-hover:translate-y-0 translate-y-8">
                 <h3 className="text-xl font-bold">{dish.name}</h3>
                 <p className="text-sm opacity-90">{dish.description}</p>
                 <p className="text-amber-300 font-medium mt-1">{dish.price}</p>
