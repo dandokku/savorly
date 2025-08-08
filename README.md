@@ -1,12 +1,154 @@
-# React + Vite
+# **Savorly Restaurant Website**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **modern, responsive restaurant website** built with **React, Tailwind CSS, and Framer Motion** for smooth animations. Features include online reservations, menu filtering, gallery, testimonials, and more.
 
-Currently, two official plugins are available:
+## **Live Demo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View Demo](#) *(Add your deployment link here)*
 
-## Expanding the ESLint configuration
+## **Features**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Fully Responsive – Works on mobile, tablet & desktop
+* Interactive Menu – Filter by categories & dietary needs
+* Reservation System – Date/time picker with real-time availability
+* Gallery – Lightbox-enabled image grid
+* Testimonials – Customer reviews with star ratings
+* SEO Optimized – Clean markup & semantic HTML
+* Dark/Light Mode – Optional toggle (see `DarkModeToggle.js`)
+* Scroll-to-Top – Floating button for better UX
+* Animations – Smooth transitions with Framer Motion
+
+---
+
+## **Tech Stack**
+
+* **Frontend:** React, Tailwind CSS
+* **Animations:** Framer Motion
+* **Icons:** React Icons
+* **Form Handling:** React Hook Form (optional)
+* **Deployment:** Vercel / Netlify
+
+---
+
+## **Project Structure**
+
+```bash
+src/
+├── components/          # Reusable UI components
+│   ├── Navbar.js        # Responsive navigation
+│   ├── Footer.js        # Contact & social links
+│   ├── DishCard.js      # Menu item component
+│   ├── ScrollToTop.js   # Floating back-to-top button
+│   └── ...
+│
+├── pages/               # Page components
+│   ├── Home.js          # Hero, USP, testimonials
+│   ├── Menu.js          # Filterable food/drinks menu
+│   ├── About.js         # Story, team, chef spotlight
+│   ├── Contact.js       # Form, map, hours
+│   └── ...
+│
+├── assets/              # Images & media
+│   ├── dishes/          # Food photos
+│   ├── gallery/         # Restaurant ambiance
+│   └── team/            # Staff portraits
+│
+├── App.js               # Main router
+└── index.js             # React entry point
+```
+
+---
+
+## **Setup & Installation**
+
+1. **Clone the repo**
+
+   ```bash
+   git clone https://github.com/your-username/savorly-restaurant.git
+   cd savorly-restaurant
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run locally**
+
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+4. **Build for production**
+
+   ```bash
+   npm run build
+   ```
+
+---
+
+## **Customization**
+
+### 1. Update Content
+
+* Replace placeholder text in `pages/` and `components/`
+* Add your own images in `assets/`
+
+### 2. Change Colors
+
+Modify `tailwind.config.js`:
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#D97706", // Amber-600
+        secondary: "#92400E", // Amber-800
+      },
+    },
+  },
+};
+```
+
+### 3. Connect APIs
+
+* **Reservations:** Replace with OpenTable or Calendly embed
+* **Contact Form:** Use Formspree or Netlify Forms
+
+---
+
+## **Deployment**
+
+### Vercel
+
+[Deploy with Vercel](https://vercel.com/new)
+
+### Netlify
+
+[Deploy with Netlify](https://app.netlify.com/start)
+
+---
+
+## **License**
+
+MIT © \[Your Name]
+
+---
+
+## **Contact**
+
+* **Email:** [your-email@example.com](mailto:your-email@example.com)
+* **GitHub:** [@your-username](https://github.com/your-username)
+
+---
+
+**Built for performance, style, and ease of customization.**
+
