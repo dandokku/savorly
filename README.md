@@ -126,14 +126,6 @@ module.exports = {
 
 [Deploy with Netlify](https://app.netlify.com/start)
 
----
-
-## **License**
-
-MIT © \[Daniel Jesuloba Ajide]
-
----
-
 ## **Contact**
 
 * **Email:** [your-email@example.com](mailto:jesulobadaniel1@gmail.com)
