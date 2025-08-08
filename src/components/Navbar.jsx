@@ -24,7 +24,7 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo (replace with your actual logo) */}
           <Link to="/" className="text-2xl font-serif font-bold text-amber-800">
-            Bistro
+            Savorly
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,7 +51,7 @@ function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-amber-600 focus:outline-none"
+              className="text-gray-700 hover:text-amber-600 focus:outline-none transition-all duration-300 ease-in-out"
             >
               {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
             </button>
