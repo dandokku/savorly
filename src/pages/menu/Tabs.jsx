@@ -42,7 +42,242 @@ function Tabs() {
       dietary: ["vegan", "gf"],
       image: "https://images.unsplash.com/photo-1672206063436-e813a6e19046?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFNlYXNvbmFsJTIwU3ByaXR6fGVufDB8fDB8fHww"
     },
-    // Add more items...
+      {
+    id: 5,
+    name: "Burrata Caprese",
+    category: "starters",
+    price: "$16",
+    description: "Creamy burrata with heirloom tomatoes and balsamic glaze",
+    dietary: ["vegetarian", "gf"],
+    image: "https://images.unsplash.com/photo-1613145998275-13a1ac61e6fa?w=500&auto=format&fit=crop&q=60",
+    popular: true
+  },
+  {
+    id: 6,
+    name: "Duck Confit Tacos",
+    category: "mains",
+    price: "$26",
+    description: "Slow-cooked duck, pickled onions, cilantro crema",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1625947551721-0f62c4de7e1b?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 7,
+    name: "Miso Glazed Eggplant",
+    category: "mains",
+    price: "$20",
+    description: "Japanese-style eggplant with sesame seeds",
+    dietary: ["vegan"],
+    image: "https://images.unsplash.com/photo-1590080875965-cfe200fba9a4?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 8,
+    name: "Lobster Ravioli",
+    category: "mains",
+    price: "$34",
+    description: "Homemade pasta filled with lobster and mascarpone",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1598515215846-1278c2621e78?w=500&auto=format&fit=crop&q=60",
+    popular: true
+  },
+  {
+    id: 9,
+    name: "Charred Broccolini",
+    category: "sides",
+    price: "$9",
+    description: "Lemon, garlic, chili flakes",
+    dietary: ["vegan", "gf"],
+    image: "https://images.unsplash.com/photo-1623843408574-8567ff76b351?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 10,
+    name: "Beef Tartare",
+    category: "starters",
+    price: "$18",
+    description: "Hand-cut tenderloin, capers, cured yolk",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1606756793360-18e82d8c44ec?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 11,
+    name: "Smoked Mushroom Risotto",
+    category: "mains",
+    price: "$24",
+    description: "Porcini, shiitake, and smoked gouda",
+    dietary: ["vegetarian", "gf"],
+    image: "https://images.unsplash.com/photo-1617349672347-2646b54d37bb?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 12,
+    name: "Vanilla Bean Panna Cotta",
+    category: "desserts",
+    price: "$11",
+    description: "Silky smooth, topped with berry compote",
+    dietary: ["gf"],
+    image: "https://images.unsplash.com/photo-1623445682649-0a2b7a9fa4ce?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 13,
+    name: "Espresso Martini",
+    category: "drinks",
+    price: "$15",
+    description: "Vodka, espresso, coffee liqueur",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1608546912771-87acdbfc11f4?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 14,
+    name: "Spicy Tuna Tartare",
+    category: "starters",
+    price: "$17",
+    description: "Ahi tuna, avocado, sesame crackers",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1616587894096-f0f45cb1e6d2?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 15,
+    name: "Zucchini Fritters",
+    category: "starters",
+    price: "$12",
+    description: "Served with mint yogurt dip",
+    dietary: ["vegetarian"],
+    image: "https://images.unsplash.com/photo-1586190442349-1c0fa2e77f05?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 16,
+    name: "Grilled Lamb Chops",
+    category: "mains",
+    price: "$32",
+    description: "Rosemary and garlic marinade",
+    dietary: ["gf"],
+    image: "https://images.unsplash.com/photo-1598514982846-f2a7f9ebf019?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 17,
+    name: "Avocado Toast",
+    category: "starters",
+    price: "$10",
+    description: "Sourdough, chili flakes, lemon zest",
+    dietary: ["vegan"],
+    image: "https://images.unsplash.com/photo-1617196034208-f8b9fa9c5a51?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 18,
+    name: "Coconut Mojito",
+    category: "drinks",
+    price: "$13",
+    description: "Rum, mint, lime, coconut milk",
+    dietary: ["vegan", "gf"],
+    image: "https://images.unsplash.com/photo-1632501600634-0e781f1c505d?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 19,
+    name: "Pistachio Baklava",
+    category: "desserts",
+    price: "$10",
+    description: "Flaky phyllo layers with pistachio and honey",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1627471488746-e331fcb9d6cf?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 20,
+    name: "Grilled Asparagus",
+    category: "sides",
+    price: "$8",
+    description: "Charred with lemon butter",
+    dietary: ["vegetarian", "gf"],
+    image: "https://images.unsplash.com/photo-1607974089931-2d1b3c1c6e55?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 21,
+    name: "Seared Scallops",
+    category: "mains",
+    price: "$30",
+    description: "Served with corn puree and microgreens",
+    dietary: ["gf"],
+    image: "https://images.unsplash.com/photo-1633261259776-60ed9e726c30?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 22,
+    name: "Thai Basil Chicken",
+    category: "mains",
+    price: "$22",
+    description: "Spicy stir-fried chicken with jasmine rice",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1603281425238-5f161cc80b18?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 23,
+    name: "Lemongrass Iced Tea",
+    category: "drinks",
+    price: "$6",
+    description: "Refreshing herbal blend with a citrus kick",
+    dietary: ["vegan", "gf"],
+    image: "https://images.unsplash.com/photo-1590080875965-cfe200fba9a4?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 24,
+    name: "Crème Brûlée",
+    category: "desserts",
+    price: "$11",
+    description: "Classic custard with a caramelized sugar top",
+    dietary: ["gf"],
+    image: "https://images.unsplash.com/photo-1603133872878-684f149b50db?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 25,
+    name: "Stuffed Bell Peppers",
+    category: "mains",
+    price: "$21",
+    description: "Quinoa, lentils, tomato glaze",
+    dietary: ["vegan", "gf"],
+    image: "https://images.unsplash.com/photo-1613145998226-0dabead2e9ee?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 26,
+    name: "Ricotta Pancakes",
+    category: "desserts",
+    price: "$14",
+    description: "Served with maple syrup and berry compote",
+    dietary: ["vegetarian"],
+    image: "https://images.unsplash.com/photo-1554109489-46f7a2c871e0?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 27,
+    name: "Crispy Brussels Sprouts",
+    category: "sides",
+    price: "$9",
+    description: "Balsamic glaze and parmesan",
+    dietary: ["vegetarian"],
+    image: "https://images.unsplash.com/photo-1570183547270-6233f1f0a7da?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 28,
+    name: "Charcuterie Board",
+    category: "starters",
+    price: "$25",
+    description: "Cured meats, cheeses, nuts, and fruits",
+    dietary: [],
+    image: "https://images.unsplash.com/photo-1604908177087-b3b50ef62ef2?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 29,
+    name: "Rosemary Lemonade",
+    category: "drinks",
+    price: "$7",
+    description: "House-made lemonade infused with rosemary",
+    dietary: ["vegan", "gf"],
+    image: "https://images.unsplash.com/photo-1630494244010-535d2ff5f924?w=500&auto=format&fit=crop&q=60"
+  },
+  {
+    id: 30,
+    name: "Vegan Cheesecake",
+    category: "desserts",
+    price: "$13",
+    description: "Cashew-based with berry swirl",
+    dietary: ["vegan"],
+    image: "https://images.unsplash.com/photo-1605470427795-21c4b5fddfaa?w=500&auto=format&fit=crop&q=60"
+  }
   ];
 
   // State for filters
