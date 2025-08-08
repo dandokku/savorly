@@ -10,9 +10,9 @@ function HeroSection() {
         loop
         muted
         playsInline
-        className="absolute z-0 w-full h-full object-cover"
+        className="absolute z-[11] w-full h-full object-cover"
       >
-        <source src={`${import.meta.env.BASE_URL}bgvid.mp4`} type="video/mp4" />
+        <source src='/bgvid.mp4' type="video/mp4" />
       </video>
 
       {/* Dark overlay for better text contrast */}
