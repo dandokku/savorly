@@ -31,7 +31,7 @@ function HeroSection() {
           Where Flavour Meets Art
         </h1>
         <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fadeIn delay-100">
-          Farm-to-table dining experience in the heart of <span className="font-semibold">[City]</span>
+          Farm-to-table dining experience in the heart of <span className="font-semibold">Abuja</span>
         </p>
         
         {/* CTA Buttons */}
