@@ -83,7 +83,7 @@ function Footer() {
               </li>
               <li className="flex items-center">
                 <FiMail className="mr-2 text-gray-500" />
-                <a href="mailto:hello@Savorly.com" className="text-gray-600 hover:text-amber-600">
+                <a href="mailto:jesulobadaniel1@gmail.com" className="text-gray-600 hover:text-amber-600">
                   hello@Savorly.com
                 </a>
               </li>
