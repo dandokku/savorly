@@ -12,7 +12,7 @@ function HeroSection() {
         playsInline
         className="absolute z-[11] w-full h-full object-cover"
       >
-        <source src='/bgvid.mp4' type="video/mp4" />
+        <source src='/bgvid.webm' />
       </video>
 
       {/* Dark overlay for better text contrast */}
@@ -20,15 +20,15 @@ function HeroSection() {
 
       {/* Content */}
       <div className="relative z-20 text-center px-4 sm:px-6 lg:px-8 text-white">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-4 animate-fadeIn">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold mb-4 animate-fadeInUp ">
           Where Flavour Meets Art
         </h1>
-        <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fadeIn delay-100">
+        <p className="text-xl sm:text-2xl mb-8 max-w-2xl mx-auto animate-fadeInUp delay-100">
           Farm-to-table dining experience in the heart of <span className="font-semibold">Abuja</span>
         </p>
         
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeIn delay-200">
+        <div className="flex flex-col sm:flex-row justify-center gap-4 animate-fadeInUp delay-200">
           <Link
             to="/reservations"
             className="bg-amber-600 hover:bg-amber-700 px-6 py-3 rounded-md font-medium transition-colors duration-300 shadow-lg"

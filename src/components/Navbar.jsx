@@ -23,12 +23,12 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo (replace with your actual logo) */}
-          <Link to="/" className="text-2xl font-serif font-bold text-amber-800">
+          <Link to="/" className="animate-fadeInLeft text-2xl font-serif font-bold text-amber-600">
             Savorly
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:block">
+          <div className="hidden md:block animate-fadeInRight">
             <ul className="flex space-x-8">
               {navLinks.map((link) => (
                 <li key={link.path}>
@@ -48,7 +48,7 @@ function Navbar() {
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden">
+          <div className="md:hidden animate-fadeInUp">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-700 hover:text-amber-600 focus:outline-none transition-all duration-300 ease-in-out"

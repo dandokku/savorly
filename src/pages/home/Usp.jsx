@@ -32,7 +32,7 @@ function USP() {
           {features.map((feature, index) => (
             <div 
               key={index}
-              className="text-center p-6 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300 animate-fadeIn"
+              className="text-center animate-fadeInUp p-6 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300 animate-fadeInUpUp"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className="mx-auto h-12 w-12 flex items-center justify-center bg-amber-100 text-amber-600 rounded-full mb-4">
