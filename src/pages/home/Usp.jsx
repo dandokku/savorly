@@ -1,5 +1,6 @@
 import React from "react";
 import { FiClock, FiAward, FiFeather, FiUser } from "react-icons/fi";
+import Animated from "../../components/Animated";
 
 function USP() {
   const features = [
@@ -30,17 +31,20 @@ function USP() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-            <div 
-              key={index}
-              className="text-center animate-fadeInUp p-6 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300 animate-fadeInUpUp"
-              style={{ animationDelay: `${index * 100}ms` }}
-            >
-              <div className="mx-auto h-12 w-12 flex items-center justify-center bg-amber-100 text-amber-600 rounded-full mb-4">
-                {feature.icon}
+            <Animated animation='fadeInUp'>
+              <div 
+                key={index}
+                className="text-center p-6 bg-gray-50 rounded-lg hover:shadow-md transition-all duration-300 animate-fadeInUpUp"
+                style={{ animationDelay: `${index * 100}ms` }}
+              >
+                <div className="mx-auto h-12 w-12 flex items-center justify-center bg-amber-100 text-amber-600 rounded-full mb-4">
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-medium text-gray-900 mb-2">{feature.title}</h3>
+                <p className="text-gray-600">{feature.desc}</p>
               </div>
-              <h3 className="text-lg font-medium text-gray-900 mb-2">{feature.title}</h3>
-              <p className="text-gray-600">{feature.desc}</p>
-            </div>
+
+            </Animated>
           ))}
         </div>
       </div>

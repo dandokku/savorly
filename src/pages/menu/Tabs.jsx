@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FiFilter, FiClock, FiZap, FiFeather } from "react-icons/fi";
 
+import Animated from "../../components/Animated"
 function Tabs() {
   // Menu data
   const menuItems = [
@@ -356,23 +357,25 @@ function Tabs() {
         {/* Filters */}
         <div className="mb-8">
           {/* Category Tabs */}
-          <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {["all", "starters", "mains", "desserts", "drinks"].map(
-              (category) => (
-                <button
-                  key={category}
-                  onClick={() => setActiveCategory(category)}
-                  className={`px-4 py-2 rounded-full capitalize text-sm font-medium transition-colors ${
-                    activeCategory === category
-                      ? "bg-amber-600 text-white"
-                      : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                  }`}
-                >
-                  {category}
-                </button>
-              )
-            )}
-          </div>
+          <Animated animation="fadeInUp">
+            <div className="flex flex-wrap justify-center gap-2 mb-6">
+              {["all", "starters", "mains", "desserts", "drinks"].map(
+                (category) => (
+                  <button
+                    key={category}
+                    onClick={() => setActiveCategory(category)}
+                    className={`px-4 py-2 rounded-full capitalize text-sm font-medium transition-colors ${
+                      activeCategory === category
+                        ? "bg-amber-600 text-white"
+                        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                    }`}
+                  >
+                    {category}
+                  </button>
+                )
+              )}
+            </div>
+          </Animated>
 
           {/* Dietary Filters - Mobile */}
           <div className="md:hidden mb-4">
